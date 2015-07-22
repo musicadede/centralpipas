@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url("imagens/road.jpg");
+	background-size: cover;
+	
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+
+div {
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	left:0px;
+	height:20%;
+	background: #2E3192;
+	border-style:solid;
+	border-color:#DE761D;
+	
+}
+
+h2{
+	color:white;
+}
+
+.ender1{
+	position:absolute;
+	left:4px;
+	top:1px;
+}
+
+.ender2{
+	position:absolute;
+	left:1px;
+	top:25px;
+}
+
+.contato{
+	position:absolute;
+	right:250px;
+}
+.whats{
+	position:absolute;
+	right:233px;
+	top:50px;
+	width:30px;
+	height:30px;
+	
+}
+
+.tel1{
+	position:absolute;
+	right:120px;
+	top:4px;
+		
+}
+.tel2{
+	position:absolute;
+	right:120px;
+	top:30px;
+		
+}
+
+.email{
+	position:absolute;
+	right:650px;
+	bottom:0px;
+}
+
+.emaildescricao{
+	position:absolute;
+	right:350px;
+	top:70px;
+}
+
+.nome{
+	position:absolute;
+	right:490px;
+	top:30px;
+}
