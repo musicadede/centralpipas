@@ -1,18 +1,23 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	background-image: url("imagens/road.jpg");
+	background-image: url("imagens/nelore.jpg");
+	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
 	
 }
 
-img{
-	width: 100px;
-	height: 100px;
+img {
+    width: 100%;
+    height: auto;
 }
 
 
 div {
+	float:left;
 	position: absolute;
 	bottom: 0px;
 	width:100%;
@@ -26,6 +31,7 @@ div {
 
 h2{
 	color:white;
+	padding: 10px:
 }
 
 .ender1{
