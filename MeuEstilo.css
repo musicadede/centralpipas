@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	background-image: url("imagens/nelore.jpg");
+	background-image: url("imagens/gado04.jpg") ;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -16,22 +16,48 @@ img {
 }
 
 
-div {
-	float:left;
-	position: absolute;
-	bottom: 0px;
+.descricao {
+	float:inherit;	
 	width:100%;
-	left:0px;
-	height:20%;
+	padding-top:2px;
 	background: #2E3192;
 	border-style:solid;
 	border-color:#DE761D;
 	
 }
 
+.fotosShow{
+	right:10px;
+	width:150px;
+	height:150px;
+	border-style:solid;
+		
+}
+
+.fot{
+	width:150px;
+	height:150px;
+}
+
+.titulo{
+	color: #2E3192;
+	border-color: white;
+	font-size: 450%;
+	padding:0px 0px; 
+}
+
+h3{
+	font-size: 200%;	
+}
+
+
+.linha4{
+	color:yellow;
+}
+
 h2{
 	color:white;
-	padding: 10px:
+	padding: 0px:
 }
 
 .ender1{
@@ -51,9 +77,6 @@ h2{
 	right:250px;
 }
 .whats{
-	position:absolute;
-	right:233px;
-	top:50px;
 	width:30px;
 	height:30px;
 	
@@ -62,7 +85,8 @@ h2{
 .tel1{
 	position:absolute;
 	right:120px;
-	top:4px;
+	bottom:15%;
+	font-size: 15%:
 		
 }
 .tel2{
